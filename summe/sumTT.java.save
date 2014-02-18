@@ -1,0 +1,32 @@
+
+import java.util.Scanner;
+
+class sumTT{
+
+        public static void main(String[] args){
+
+                Scanner scan = new Scanner(System.in);
+                System.out.println("Geben Sie bitte eine natÃrliche Zahl n ein: ");
+                Integer zahl = scan.nextInt();
+		
+		System.out.println("" + calculate(zahl));
+		
+        }
+
+	public int calculate(int zahl){
+
+		if(zahl > 0){
+			--zahlÃ
+			return calculate(zahl) +;
+		}
+		else 	{
+			return;
+			}
+	}
+}
+
+
+
+
+
+
